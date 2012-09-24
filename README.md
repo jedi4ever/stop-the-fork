@@ -35,6 +35,7 @@ Please consider adding your own thoughts, ideas whenever you feel like **forking
 
 ## Different methods
 
+- User/group method: sometimes users/groups are created by another mechanism, so make creation optional
 - Install method: provide people with different options for installation: source, package, download
 - Download method: to get certain software, make it configurable : copy, download,
 - Services methods: Not everyone may use upstart, daemontools, standard init.d scripts
@@ -84,8 +85,10 @@ Please consider adding your own thoughts, ideas whenever you feel like **forking
 ## Puppet
 
 - Use hiera to seperate configuration from code
-- Avoid parametrized classes
+- Avoid parametrized classes just for passing configuration options globally for the manifest
 - Favor definitions over Classes (multi-instance)
+- Make sure to use the anchor-pattern if you do require on classes
+
 
 ## Chef
 
