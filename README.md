@@ -1,23 +1,22 @@
 # Short Description
 This repo will collect ideas and examples on how structure your configuration management code to avoid forks from happening.
 
-      _________ __                  ___________.__             ___________           __    
-       /   _____//  |_  ____ ______   \__    ___/|  |__   ____   \_   _____/__________|  | __
-        \_____  \\   __\/  _ \\____ \    |    |   |  |  \_/ __ \   |    __)/  _ \_  __ \  |/ /
-         /        \|  | (  <_> )  |_> >   |    |   |   Y  \  ___/   |     \(  <_> )  | \/    < 
-         /_______  /|__|  \____/|   __/    |____|   |___|  /\___  >  \___  / \____/|__|  |__|_ \
-                 \/             |__|                     \/     \/       \/                   \/
+> " Stop the Fork, before it eats you "
 
 # Longer Description
 Unlike your parents telling you to use a fork for better manners, in software you should avoid it!
 
 Now that infrastructure is code, we can start sharing our code on sites like github.
 Far too often we see for a specific cookbook/manifests that forks are happening.
+This not only is a waste of energy as two people are working on the same problem.
+Whenever you start your fork, your maintenance of that code will fall on you.
 
-So let's document the reasons so we can argue people and have them unlearn this habbit!
+A good way to think is :
+
+> " If I can't share it, I'm probably doing it wrong"
+
+So let's document the reasons so we can argue with people and have them unlearn this habbit!
 Please consider adding your own thoughts, ideas whenever you feel like **forking**.
-
-Ultimately I hope to detect the reasons with a tool similar to foodcritic or puppet-lint and point them out to people.
 
 # Excuses to fork
 ## Learning
@@ -94,3 +93,7 @@ Ultimately I hope to detect the reasons with a tool similar to foodcritic or pup
 - Use Databags for users/password/etc..
 - Check for Chef::Solo and make your search code work for solo too
 - Use Search:Roles to configure hostname
+
+# Future
+
+Ultimately I hope to detect the reasons with a tool similar to foodcritic or puppet-lint and point them out to people.
