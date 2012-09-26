@@ -97,6 +97,15 @@ Please consider adding your own thoughts, ideas whenever you feel like **forking
 - Check for Chef::Solo and make your search code work for solo too
 - Use Search:Roles to configure hostname
 
+## CFEngine 3
+
+- Use hard classes where possible (sys.fqhost, sys.ipv4, etc)
+- Nest soft classes where you can to make inputs/bundles shorter yut still afford flexibility
+- Declare variables as overridable where possible
+- Pass paramaters to your usebundles as this decouples specifics from the bundle itself
+- Run cf-serverd with appropriate security controls on all cf-agents
+- Design your bundles to work with a upstream, production cf-serverd or with local, temporal cf-serverd
+
 # Future
 
 Ultimately I hope to detect the reasons with a tool similar to foodcritic or puppet-lint and point them out to people.
