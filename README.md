@@ -97,6 +97,7 @@ Please consider adding your own thoughts, ideas whenever you feel like **forking
 - Check for Chef::Solo and make your search code work for solo too
 - Use Search:Roles to configure hostname
 
+Also see Peter Donald's post : Re-usable chef cookbooks <http://realityforge.org/code/2012/05/12/evolving-towards-cookbook-reusability-in-chef.html>
 ## CFEngine 3
 
 - Use hard classes where possible (sys.fqhost, sys.ipv4, etc)
