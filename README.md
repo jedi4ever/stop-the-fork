@@ -15,7 +15,7 @@ A good way to think is :
 
 > " If I can't share it, I'm probably doing it wrong"
 
-So let's document the reasons so we can argue with people and have them unlearn this habbit!
+So let's document the reasons so we can argue with people and have them unlearn this habit!
 Please consider adding your own thoughts, ideas whenever you feel like **forking**.
 
 # Excuses to fork
